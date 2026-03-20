@@ -21,27 +21,27 @@ mvn clean package
 
 - Test:
 
-    - Add: Pass 2 parameters `description` and `amount`
+    - Add Expense: Pass 2 parameters `description` and `amount`
       ```
       java -jar target/expense-trackers-1.0-SNAPSHOT.jar add --description <description> --amount <amount>
       ```
 
-    - List:
+    - List All Expense:
       ```
       java -jar target/expense-trackers-1.0-SNAPSHOT.jar list
       ```
 
-    - Summary:
+    - Summary Total:
       ```
       java -jar target/expense-trackers-1.0-SNAPSHOT.jar summary
       ```
 
-    - Update: Pass 2 parameters `id` and `amount`
+    - Update Expense: Pass 2 parameters `id` and `amount`
       ```
       java -jar target/expense-trackers-1.0-SNAPSHOT.jar update --id <id> --amount <amount>
       ```
 
-    - Delete: Pass parameter `id`
+    - Delete Expense: Pass parameter `id`
       ```
       java -jar target/expense-trackers-1.0-SNAPSHOT.jar delete --id <id>
       ```
