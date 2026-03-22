@@ -23,7 +23,7 @@ cd expense-trackers
 mvn clean package
 ```
 
-- Test:
+- Run and test:
 
     - Add Expense: Pass 2 parameters `description` and `amount`
       ```shell
